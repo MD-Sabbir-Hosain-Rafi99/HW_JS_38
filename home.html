@@ -12,12 +12,50 @@
     <div class="max-w-[1170px] m-auto">
         <div class="w-[450px] m-auto">
             <div class="mockup-phone m-auto">
-            <div class="mockup-phone-camera"></div>
-            <div class="mockup-phone-display text-white grid place-content-center">
-                <h1 class="text-3xl">Ami Home😳</h1>
+                <div class="mockup-phone-camera"></div>
+                <div class="mockup-phone-display text-white grid place-content-center">
+                    <!-- =================================== -->
+                    <div class="stats shadow">
+                        <div class="stat text-center">
+                            <div class="stat-value text-white text-3xl" id="currentBalance">100</div>
+                            <div class="stat-title text-white text-3xl">Total Balance</div>
+                        </div>
+                    </div>
+                    <!-- =================================== -->
+
+                    <!-- =================================== -->
+                    <div class="flex w-full flex-col">
+                        <div class="card bg-purple-500 rounded-box grid h-5 place-items-center"></div>
+                    </div>
+                    <!-- =================================== -->
+                    <!-- =================================== -->
+                    <!-- ================================= -->
+                    <fieldset class="fieldset">
+                        <legend class="fieldset-legend font-bold text-base text-white">Ammount :
+                        </legend>
+                        <input id="ammountInput" type="text" class="input text-black"/>
+                    </fieldset>
+                    <!-- ================================= -->
+                    <!-- ================================= -->
+                    <fieldset class="fieldset">
+                        <legend class="fieldset-legend font-bold text-base text-white">4 Digit Pin Number/ 2000</legend>
+                        <input id="addMoneyPin" type="password" class="input text-black" placeholder="Pin Number" />
+                    </fieldset>
+                    <!-- ================================= -->
+                    <!-- =================================== -->
+                    <!-- =================================== -->
+                    <div class="flex mt-5 justify-between">
+                        <button class="btn btn-soft btn-primary" id="addMoneyBtn">Add Money</button>
+                        <button class="btn btn-soft btn-secondary" id="cashOutBtn">Cash Out</button>
+                    </div>
+                    <!-- =================================== -->
+
+                    
+                </div>
             </div>
         </div>
-        </div>
     </div>
+    <script src="js/home.js"></script>r
 </body>
+
 </html>
