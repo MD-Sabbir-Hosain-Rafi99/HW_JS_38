@@ -2,8 +2,13 @@ let ammountInput = document.getElementById('ammountInput');
 let addMoneyPin = document.getElementById('addMoneyPin');
 let addMoneyBtn = document.getElementById('addMoneyBtn');
 let cashOutBtn = document.getElementById('cashOutBtn');
+let logOutBtn = document.getElementById('logOutBtn');
 let currentBalance = document.getElementById('currentBalance');
-
+//============= LogOut =============
+logOutBtn.addEventListener('click', () =>{
+    window.location.href = "./rafiindex.html"
+})
+//============= LogOut =============
 // ============= Add Money =============
 addMoneyBtn.addEventListener('click', () => {
     if (addMoneyPin.value == 2000) {
